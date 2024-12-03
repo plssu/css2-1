@@ -1,0 +1,19 @@
+#Nextmove {
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#Products {
+    display: inline-block;
+    
+}
+
+#Product #Services #Recourses #Offers {
+    display: inline-block;
+    margin-left: 100px;
+}
+
+#Controls {
+    display: inline-block;
+}
