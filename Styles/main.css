@@ -1,23 +1,29 @@
+body {
+    margin: 0;
+}
+
 #Controls {
     display: inline-block;
+    margin: 0;
     font-size: 24px;
-    margin-left: 40px;
+    width: 132px;
+    height: 48px;
+    margin-left: 80px;
+    margin-top: 12px;
+    margin-bottom: 64px;
 }
 
-#iconimage {
-    
-}
-
-/* #nextMove {
+#nextMove {
     display: inline-block;
     font-size: 24px;
     font-weight: 700;
-} */
+}
   
 #Products {
     display: inline-block;
-    width: 400px;
-    margin: 20px 200px;
+    width: 396px;
+    margin: 20px 193px;
+    margin-right: 179px;
     color: #323232;
 }
   
@@ -60,66 +66,69 @@
   
 #cardImage {
     text-align: end;
+    
 }
   
 #transparent {
     display: inline-block;
     font-size: 24px;
-    margin-left: 6px;
-    padding: 0px;
-    width: 841px;
+    margin-left: 214px;
+    width: 700px;
     height: 314px;
     left: 214px;
     top: 136px;  
 }
 
 h1 {
-    font-size: xx-large;
-    width: 300px;
-    margin-left: 190px;
-    padding: 0px;
+    display: inline-block;
+    margin: 0;
+    font-size: 50px;
+    width: 500px;
+    font-family: Impact;
     left: 214px;
     top: 136px;
 }
 
 #money {
     width: 600px;
-    margin-left: 190px;
     font-size: 18px;
-    padding: 0px;
     left: 214px;
     top: 136px;
+    color: #323232;
+    font-family: "Inria Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 #join {
     display: inline-block;
     font-size: 24px;
-    margin-left: 40px;
+    width: 499px;
+}
+
+#joinBtn {
+    display: inline;
+    margin-right: 24px;
+    width: 196px;
+    height: 54px;
+    color: white;
+    background-color: #5C3BAE;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 20px;
 }
 
 #iconLoading {
     display: inline;
-    font-size: 24px;
-    margin-left: 360px;
+    width: 32px;
     height: 32px;
 }
 
-#joinButton {
-    display: inline-block;
-    border-radius: 8px;
-    width: 204px;
-    height: 54px;
-    margin-left: 148px;
-    font-size: medium;
-    color: white;
-    background-color: #5C3BAE;
-    border: solid 2px #5C3BAE;
-}
-
 #underLine {
-    display: inline-block;
+    display: inline;
     font-size: 24px;
-    margin-left: 3px;
-    width: 170px;
-    height: 22px;
+    border-bottom: 2px solid #5C3BAE;
 }
